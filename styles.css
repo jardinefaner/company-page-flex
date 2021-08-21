@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Urbanist', cursive;
+  font-size: 40%;
+  color: slategray;
+  opacity: 0.95;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.1px solid slategray;
+  width: 100vw;
+  height: 10vh;
+  padding: 2rem;
+  background-color: white;
+  position: fixed;
+}
+
+h1 {
+  font-family: 'Allison', cursive;
+  font-size: 10rem;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  width: 40vw;
+}
+
+li {
+  font-size: 3rem;
+  list-style-type: none;
+}
+
+a {
+  font-size: 3rem;
+  text-decoration: none;
+}
+
+a:hover {
+  border-top: 0.1rem solid slategray;
+}
+
+header {
+  background-image: url('./src/rain06.jfif');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  top: 10vh;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h2 {
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 8rem;
+}
+
+p {
+  margin: 2rem;
+  padding: 2rem;
+  max-width: 40vw;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 5rem;
+}
