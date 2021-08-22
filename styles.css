@@ -5,12 +5,12 @@
   font-family: 'Urbanist', cursive;
   font-size: 40%;
   color: slategray;
-  opacity: 0.95;
+  /* opacity: 0.95; */
 }
 
 nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   border-bottom: 0.1px solid slategray;
   width: 100vw;
@@ -18,6 +18,7 @@ nav {
   padding: 2rem;
   background-color: white;
   position: fixed;
+  z-index: 10;
 }
 
 h1 {
@@ -27,11 +28,12 @@ h1 {
 
 ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   width: 40vw;
 }
 
 li {
+  margin-right: 3rem;
   font-size: 3rem;
   list-style-type: none;
 }
@@ -71,4 +73,54 @@ p {
   max-width: 40vw;
   background-color: rgba(255, 255, 255, 0.5);
   font-size: 5rem;
+}
+
+#mission {
+  scroll-margin-top: 10vh;
+}
+
+main {
+  position: relative;
+  top: 10vh;
+  height: 100vh;
+  /* display: flex;
+  justify-content: center; */
+
+}
+
+#portfolio {
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+  flex-wrap: wrap;
+  padding: 5rem;
+  scroll-margin-top: 10vh;
+  margin: auto;
+}
+
+h3 {
+  font-size: 5rem;
+}
+
+img {
+  max-width: 40rem;
+  flex-shrink: 1;
+  margin-top: 1rem;
+}
+
+#portfolio p {
+  margin: 2rem auto;
+  padding: 0;
+  font-size: 2.5rem;
+  width: 40rem;
+  text-align: left;
+}
+
+#team {
+  background-image: url('src/rain04.jfif');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  scroll-margin-top: 10vh;
 }
